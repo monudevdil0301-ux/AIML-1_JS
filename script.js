@@ -32,3 +32,19 @@
 //     console.log("Sym1 and Sym2 are different");
 // }
 // 
+// var a= 10;
+// var b= 20;
+// var linebreak="<br/>";
+
+// document.write("(a,b)=>");
+// result=(a<b);
+// document.write(result);
+// document.write(linebreak)
+// var count;
+// document.write("starting loop"+"<br/>");
+// for(count=1;count<=10;count++){
+//     document.write("current count:"+count);
+//     document.write("<br/>");
+
+// }
+// 
