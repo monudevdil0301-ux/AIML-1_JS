@@ -47,4 +47,29 @@
 //     document.write("<br/>");
 
 // }
-// 
+// document.write("loop stopped!")
+// const person={
+//     fname:"Naveen",
+//     lname:"Kumar",
+//     age:30
+// };
+// for(let x in person ){
+//     console.log("person details:"+x+"="+person[x]);
+// }
+// var myInfo = new Array();
+// //var myInfo1 = Array();
+// console.log(myInfo, myInfo1);
+// let collection = [
+// {}, [], true, "john", function () {}, 90009898193, undefined, null, new String("abc"), new Date(), ];
+
+// collection.teacherName = "John Mac";
+// collection.phoneNo = 950008193;
+// console.log(collection);
+// var trainerinfo = ["Jitendra" , 29, "Ghaziabad", {isMarried:true}];
+
+// console.log(trainerinfo[trainerinfo.length-1]);
+// const result =document.getElementById("para");
+// result .innerHTML ="my self";
+// result.title ="myname";
+const result2= document.getElementsByClassNameName("heading");
+result2.innerHTML ="hii"
