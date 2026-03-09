@@ -16,3 +16,19 @@
 // num=null;
 // console.log(num);
 //
+ console.log(typeof(num));
+
+// num=undefined;
+// console.log(num);
+// console.log(typeof(num));
+// const Sym1 = Symbol("4");
+// console.log(Sym1);
+// const Sym2 = Symbol("5");
+// console.log(Sym2);
+// if(Sym1 === Sym2){
+//     console.log("Sym1 and Sym2 are same");
+// }
+// else{
+//     console.log("Sym1 and Sym2 are different");
+// }
+// 
