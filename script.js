@@ -16,7 +16,7 @@
 // num=null;
 // console.log(num);
 //
- console.log(typeof(num));
+ //console.log(typeof(num));
 
 // num=undefined;
 // console.log(num);
@@ -71,5 +71,5 @@
 // const result =document.getElementById("para");
 // result .innerHTML ="my self";
 // result.title ="myname";
-const result2= document.getElementsByClassNameName("heading");
-result2.innerHTML ="hii"
+// const result2= document.getElementsByClassNameName("heading");
+// result2.innerHTML ="hii"
