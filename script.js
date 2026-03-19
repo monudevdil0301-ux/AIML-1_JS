@@ -73,6 +73,9 @@
 // result.title ="myname";
 // const result2= document.getElementsByClassNameName("heading");
 // result2.innerHTML ="hii"
-const element=document.getElementById("my H1");
-let text=element.getAttribute("class");
-document.getElementById("demo").innerHTML=text;
+// const element=document.getElementById("my H1");
+// let text=element.getAttribute("class");
+// document.getElementById("demo").innerHTML=text;
+const x=document.querySelector("INPUT");
+x.addEventListener('focus' , onhandlefocus);
+x.addEventListener('blur' , onhandleblur);
