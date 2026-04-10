@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Employee data</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Company employee data</h2>
+<h3>Your Records</h3>
+    <input type="text" id="name" placeholder="Employee Name">
+    <input type="text" id="empId" placeholder="Employee ID">
+    <input type="number" id="salary" placeholder="Salary">
+    
+
+    <div class="button-row"> 
+        <button onclick="Addinformation()">Addinformation </button>
+      <button onclick="displayEmployees()">Display Employees</button>
+    </div>
+
+    <div class="button-row">
+      
+      <button onclick="totalSalary()">Total Salary</button>
+      
+      
+    </div>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
