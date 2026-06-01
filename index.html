@@ -1,16 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Amazon Clone</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#eaeded;
+}
+
+.navbar{
+    background:#131921;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    color:#ff9900;
+}
+
+.search-box{
+    width:50%;
+    display:flex;
+}
+
+.search-box input{
+    width:100%;
+    padding:10px;
+    border:none;
+}
+
+.search-box button{
+    background:#febd69;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+.hero{
+    background:url('https://images.unsplash.com/photo-1523275335684-37898b6baf30')
+    center/cover;
+    height:350px;
+}
+
+.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:30px;
+}
+
+.card{
+    background:white;
+    padding:15px;
+    border-radius:8px;
+    text-align:center;
+    box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px 0;
+}
+
+.card button{
+    background:#ffd814;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+    border-radius:20px;
+}
+
+footer{
+    background:#232f3e;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
 </head>
+
 <body>
-    
- <script src="./script.js"></script>
- <h2>DOM close Method</h2> 
- <button onclick="pratice()">Submit</button> 
- <button onmouseover="onMOuseOver()">Submit</button>
- <button ondblclick=""
+
+<div class="navbar">
+    <div class="logo">amazon</div>
+
+    <div class="search-box">
+        <input type="text" placeholder="Search products">
+        <button>Search</button>
+    </div>
+
+    <div>Cart 🛒</div>
+</div>
+
+<div class="hero"></div>
+
+<div class="products">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x220" alt="">
+        <h3>Wireless Headphones</h3>
+        <p>$49.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x220" alt="">
+        <h3>Smart Watch</h3>
+        <p>$79.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/300x220" alt="">
+        <h3>Gaming Mouse</h3>
+        <p>$29.99</p>
+        <button>Add to Cart</button>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 Amazon Clone Demo
+</footer>
+
 </body>
 </html>
